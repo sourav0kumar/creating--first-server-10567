@@ -1,0 +1,23 @@
+{
+  "name": "creating--first-server-10567",
+  "version": "1.0.0",
+  "description": "creating first node.js server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourav0kumar/creating--first-server-10567.git"
+  },
+  "author": "sourav kumar gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourav0kumar/creating--first-server-10567/issues"
+  },
+  "homepage": "https://github.com/sourav0kumar/creating--first-server-10567#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

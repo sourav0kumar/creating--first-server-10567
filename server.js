@@ -23,7 +23,10 @@ http
           .on("end", () => {
             body = JSON.parse(body);
             let newToDo = toDoList;
-            newToDo.push(body.item);
+            newToDo.push(body.name);
+            newToDo.push(body.title);
+            
+
             console.log(newToDo);
             res.writeHead(201);
           });
